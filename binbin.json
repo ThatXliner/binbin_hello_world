@@ -1,0 +1,19 @@
+{
+    "name": "hello_world",
+    "desc": "Prints 'hello world'",
+    "homepage": "https://github.com/ThatXliner/binbin_hello_world",
+    "latest":"v0.1.0",
+    "license": "MIT",
+    "head": "https://github.com/ThatXliner/binbin_hello_world.git",
+    "target": "hello-world",
+    "platform": {
+        "Darwin": {
+            "catalina": {
+                "sha256": "3809f769599d7f84e0c058d5948f7261e8be98f960e314abd79b5a5d84eec72b"
+            },
+            "generic": {
+                "build": ["$CPPCOMPILER", "hello_world.cpp", "-o", "hello-world"]
+            }
+        }
+    }
+}

@@ -9,7 +9,8 @@
     "platform": {
         "Darwin": {
             "catalina": {
-                "sha256": "3809f769599d7f84e0c058d5948f7261e8be98f960e314abd79b5a5d84eec72b"
+                "sha256": "3809f769599d7f84e0c058d5948f7261e8be98f960e314abd79b5a5d84eec72b",
+                "build": ["$CPPCOMPILER", "hello_world.cpp", "-o", "hello-world"]
             },
             "generic": {
                 "build": ["$CPPCOMPILER", "hello_world.cpp", "-o", "hello-world"]

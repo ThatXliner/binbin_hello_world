@@ -2,7 +2,7 @@
     "name": "hello_world",
     "desc": "Prints 'hello world'",
     "homepage": "https://github.com/ThatXliner/binbin_hello_world",
-    "latest": "v0.2.0",
+    "version": "v0.2.0",
     "license": "MIT",
     "head": "https://github.com/ThatXliner/binbin_hello_world.git",
     "target": "hello-world",
@@ -12,7 +12,7 @@
             "generic": "b6106f28f71b177e845a9ea03e9c585bfec29de349c58bde38814481d824f049"
         }
     },
-    "scripts": {
+    "build": {
         "Darwin": {
             "generic": ["$CPPCOMPILER", "hello_world.cpp", "-o", "hello_world"]
         }

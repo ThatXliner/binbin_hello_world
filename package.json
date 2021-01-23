@@ -2,7 +2,7 @@
     "name": "hello_world",
     "desc": "Prints 'hello world'",
     "homepage": "https://github.com/ThatXliner/binbin_hello_world",
-    "version": "v0.2.0",
+    "version": "v0.3.0",
     "license": "MIT",
     "head": "https://github.com/ThatXliner/binbin_hello_world.git",
     "target": "hello-world",
